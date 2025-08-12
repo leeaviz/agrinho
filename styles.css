@@ -1,0 +1,103 @@
+/* CSS */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #e6f2e6;
+    color: #2d4a2d;
+}
+
+header {
+    background-color: #3a7d44;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a6d785;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    flex: 1 1 350px;
+}
+
+.intro-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.intro-image {
+    flex: 1 1 350px;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.btn-sustentavel {
+    background-color: #3a7d44;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn-sustentavel:hover {
+    background-color: #2e5c2e;
+}
+
+footer {
+    background-color: #2d4a2d;
+    color: #d6e9c6;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 60px;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+    .intro {
+        flex-direction: column;
+    }
+}
